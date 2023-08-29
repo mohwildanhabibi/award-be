@@ -1,0 +1,28 @@
+{
+  "name": "award-be",
+  "version": "1.0.0",
+  "description": "backend for award app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wildan habibi",
+  "license": "ISC",
+  "_moduleAliases": {
+    "~": "."
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "module-alias": "^2.2.3",
+    "mongoose": "^7.4.4",
+    "mongoose-paginate-v2": "^1.7.31",
+    "nodemon": "^3.0.1"
+  }
+}
